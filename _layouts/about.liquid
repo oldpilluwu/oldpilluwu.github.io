@@ -48,8 +48,15 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>selected publications</h2>
-      {% include selected_papers.liquid %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% capture selected_papers %}{% include selected_papers.liquid %}{% endcapture %}
+      {% if selected_papers contains '<li' %}
+        {{ selected_papers }}
+      {% else %}
+        <p>No publications yet.</p>
+      {% endif %}
     {% endif %}
 
     <!-- Social -->

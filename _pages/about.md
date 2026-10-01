@@ -21,12 +21,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am an engineer and researcher in artificial intelligence and machine learning systems. I am currently working with the SmartThings Team in Samsung R&D Institute Bangladesh, where I lead research on efficient on-device AI models and contribute to the development of scalable ML infrastructures. I graduated from University of Dhaka majoring in Computer Science and Engineering. Professionally, my work spans across AI model compression, AI Infrastructure, and consumer IoT systems, with a particular focus on bridging the gap between advanced ML research and real-world deployment. My contributions have been recognized with the Excellence in Innovation Award (2025) and the Excellence in Development Award (2024) from Samsung R&D Institute Bangladesh, as well as a granted A1 patent in AI and camera technology.
+I am an engineer and researcher working on AI and machine learning systems. I currently work with the SmartThings team at Samsung R&D Institute Bangladesh.
 
 #### Research Interests
 
-* **Efficient AI**: Designing resource-conscious models through quantization, pruning, and model compression to improve performance in constrained environments.
-* **ML Systems**: Building scalable and robust ML infrastructure, training and inference systems.
-* **On-Device Inference**: Advancing techniques that enable complex models to run on mobile and embedded devices.
-
-Through these directions, my aim is to contribute to the broader effort of making AI both efficient and widely deployable, thereby enabling impactful applications across devices and platforms.
+* LLM Post-Training
+  * Reinforcement Learning
+  * Distillation
+* Self-Improving Models
+* AI Infrastructure and Systems
